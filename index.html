@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src = "./js/script.js" defer></script>
+    <title>Time Calculator</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class = "header">
+        <div class = "title">Time Calculator</div>
+        <div class = "desc">A simple calculator allowing you to perform calculations on time!</div>
+    </div>
+
+    <!-- Body Section -->
+    <div class="body">
+        <!-- Input Section + Instructions -->
+        <div class = "input-section">
+            <div class = "title">Input your strings of time in this section below!</div>
+            <input type = "text" placeholder = "Format: XX:XX:XX" name = "time">
+            <button type = "button" id = "time-submit">Add Time</button>
+            <div class = "how-to">
+                <div class = "text">You can use this input to calculate the total length of time given by numerous strings of time.</div>
+                <div class = "text">As a reminder, you must format your input using "XX:XX:XX" including both digits in each section. If any portion of the time string is not needed, use a 0 as a placeholder.</div>
+                <div class = "text">Any invalid inputs will not be added to the total.</div>
+            </div>
+        </div>
+
+        <!-- Time Sections -->
+        <div class = "time-list">
+            <div class = "entry">
+                <div class = "time">12:43:20</div>
+                <div class = "remove-entry"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="by-line">By tam-justin</div>
+    </div>
+</body>
+</html>
